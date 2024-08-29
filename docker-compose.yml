@@ -1,13 +1,13 @@
 
 services:
-  tenant-eu:
+  tenant-cn:
     container_name: tenant-cn
     build: .
     ports:
       - "9090:9090"
     networks:
-      - shared_tenant_network
+      - shared-tenant-network
 
 networks:
-  shared_tenant_network:
+  shared-tenant-network:
     driver: bridge
