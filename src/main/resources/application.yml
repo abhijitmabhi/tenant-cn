@@ -1,0 +1,7 @@
+
+
+spring:
+  application:
+    name: tenant-cn
+server:
+  port: 9090
